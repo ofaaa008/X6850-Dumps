@@ -1,0 +1,15 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=4096
+kernel_size=19659735
+ramdisk_size=1380093
+base_addr=
+kernel_offset=
+ramdisk_offset=
+tags_offset=
+dtbo_offset=
+os_version=12.0.0
+os_patch_level=2025:9
+cmd_line=''
+board=""
+format=lz4

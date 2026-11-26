@@ -1,0 +1,24 @@
+Footer version:           1.0
+Image size:               67108864 bytes
+Original image size:      28356608 bytes
+VBMeta offset:            28356608
+VBMeta size:              640 bytes
+--
+Minimum libavb version:   1.0
+Header Block:             256 bytes
+Authentication Block:     0 bytes
+Auxiliary Block:          384 bytes
+Algorithm:                NONE
+Rollback Index:           0
+Flags:                    0
+Rollback Index Location:  0
+Release String:           'avbtool 1.3.0'
+Descriptors:
+    Hash descriptor:
+      Image Size:            28356608 bytes
+      Hash Algorithm:        sha256
+      Partition Name:        vendor_boot
+      Salt:                  f4262dadba1a0f782cbaab73d702fae73eb9bbb33f820675f602f9496ac7c3d2
+      Digest:                61f034987f141cdbe371f830e93060d99b16f7125fba6b0adf2f05761d67db2f
+      Flags:                 0
+    Prop: com.android.build.vendor_boot.fingerprint -> 'alps/hal_mgvi_64_nfc_armv82/mgvi_64_nfc_armv82:12/SP1A.210812.016/991860:user/dev-keys'
