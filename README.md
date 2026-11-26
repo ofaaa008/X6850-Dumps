@@ -26,11 +26,11 @@
 ## Contents
 
 Physical images are at the repository root, as DumprX lays them out:
-`boot.img`, `dpm.img`, `dtbo.img`, `gz.img`, `lk.img`, `logo.bin`, `mcupm.img`, `md1img.img`, `pi_img.img`, `preloader.img`, `preloader_emmc.img`, `preloader_raw.img`, `preloader_ufs.img`, `preloader_x6850_h895.bin`, `scp.img`, `spmfw.img`, `sspm.img`, `vbmeta.img`, `vbmeta_system.img`, `vbmeta_vendor.img`, `vendor_boot.img`, `vendor_dlkm.img`, `odm_dlkm.img`
+`boot.img`, `dpm.img`, `dtbo.img`, `gz.img`, `lk.img`, `logo.bin`, `mcupm.img`, `md1img.img`, `pi_img.img`, `preloader.img`, `preloader_emmc.img`, `preloader_raw.img`, `preloader_ufs.img`, `preloader_x6850_h895.bin`, `scp.img`, `spmfw.img`, `sspm.img`, `vbmeta.img`, `vbmeta_system.img`, `vbmeta_vendor.img`, `vendor_boot.img`, `vendor_dlkm.img`, `odm_dlkm.img`, `tr_carrier.img`, `tr_company.img`, `tr_mi.img`, `tr_overlayfs.img`, `tr_preload.img`, `tr_product.img`, `tr_region.img`, `tr_theme.img`
 
 Logical partitions small enough to ship are included in full size (valid AVB
 footer, flashable) and extracted:
-`system/`, `vendor/`, `vendor_dlkm/`, `odm_dlkm/`
+`system/`, `vendor/`, `vendor_dlkm/`, `odm_dlkm/`, `tr_carrier/`, `tr_company/`, `tr_mi/`, `tr_overlayfs/`, `tr_preload/`, `tr_product/`, `tr_region/`, `tr_theme/`
 
 `boot/` and `vendor_boot/` hold `img_info`, `avb.txt`, the kernel payload,
 `ramdisk.packed` and the unpacked ramdisk, matching DumprX output.

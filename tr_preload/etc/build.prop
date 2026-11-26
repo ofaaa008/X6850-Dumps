@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.tr_preload.brand=Infinix
+ro.product.tr_preload.device=FULL-64-ARMV82
+ro.product.tr_preload.manufacturer=INFINIX
+ro.product.tr_preload.model=
+ro.product.tr_preload.name=TSSI
+ro.tr_preload.build.date=Thu Jun 18 20:55:33 CST 2026
+ro.tr_preload.build.date.utc=1781787333
+ro.tr_preload.build.fingerprint=Infinix/TSSI/FULL-64-ARMV82:15/AP3A.240905.015.A2/260618V4531:user/release-keys
+ro.tr_preload.build.id=AP3A.240905.015.A2
+ro.tr_preload.build.tags=release-keys
+ro.tr_preload.build.type=user
+ro.tr_preload.build.version.incremental=260618V4531
+ro.tr_preload.build.version.release=15
+ro.tr_preload.build.version.release_or_codename=15
+ro.tr_preload.build.version.sdk=35
+####################################
+# from variable PRODUCT_TR_PRELOAD_PROPERTIES
+####################################
+# end of file
